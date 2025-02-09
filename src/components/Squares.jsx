@@ -42,8 +42,8 @@ const Squares = ({
       const startX = Math.floor(gridOffset.current.x / squareSize) * squareSize;
       const startY = Math.floor(gridOffset.current.y / squareSize) * squareSize;
 
-      // Draw background
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.9)';
+      // Draw background //Opacity Control and Transparency of the background 
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.8)';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
       // Draw squares

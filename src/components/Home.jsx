@@ -1,6 +1,5 @@
 import React from 'react'
 import { Bg_Text } from './Bg_Text'
-import Timeline from './Timeline'
 import '/dist/style.css'
 
 const Home = () => {
@@ -10,9 +9,6 @@ const Home = () => {
       <section className="min-h-screen">
         <Bg_Text />
       </section>
-      
-      {/* Timeline Section */}
-      <Timeline />
     </div>
   )
 }

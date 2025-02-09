@@ -31,8 +31,8 @@ function App() {
               <Bg_Text />
             </section>
 
-            {/* Timeline Section */}
-            <section className="w-full">
+            {/* Timeline Section - Add margin-top */}
+            <section className="w-full mt-20">
               <Timeline />
             </section>
           </Squares>
